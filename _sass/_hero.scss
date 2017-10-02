@@ -1,0 +1,45 @@
+.hero {
+  padding: 50px 0;
+}
+
+.hero__left {
+  width: 300px;
+  float: left;
+}
+
+.hero__right {
+  width: calc(100% - 300px);
+  float: right;
+}
+
+.hero__portrait {
+  border-radius: 50%;
+}
+
+.hero__h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0;
+  padding: 90px 0 0;
+}
+
+.hero__desc {
+  margin: 10px 0 0;
+  font-size: 15px;
+  color: #8a8a8a;
+}
+
+.hero__contacts {
+  margin-top: 40px;
+}
+
+.hero__contact {
+  @include flexbox;
+  @include align-items(center);
+  margin-top: 10px;
+  padding: 5px 0;
+}
+
+.hero__contact__content {
+  margin-left: 15px;
+}
