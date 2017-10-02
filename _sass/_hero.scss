@@ -36,7 +36,7 @@
 .hero__contact {
   @include flexbox;
   @include align-items(center);
-  margin-top: 10px;
+  margin-top: 5px;
   padding: 5px 0;
 }
 
