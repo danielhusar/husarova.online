@@ -24,6 +24,8 @@
 .timeline__item {
   min-height: 250px;
   position: relative;
+  clear: both;
+  padding-bottom: 70px;
 
   &:before {
     content: '';
@@ -79,6 +81,11 @@
   margin-right: 19px;
   height: 60px;
   border-right: 1px solid $grey;
+}
+
+.timeline__item__date {
+  font-size: 12px;
+  margin: 0 0 3px;
 }
 
 .timeline__item__h2 {
