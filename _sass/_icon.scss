@@ -1,10 +1,14 @@
 .icon__circle {
   padding: 10px;
-  border: 1px solid #eacdcd;
+  border: 1px solid $grey;
   border-radius: 50%;
   line-height: 0;
-  display: block;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
   background: white;
+  position: relative;
+  z-index: 2;
 
   img {
     opacity: .5;
