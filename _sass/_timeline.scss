@@ -2,10 +2,10 @@
   margin: 30px 0;
 }
 
-.timeline__intro ,
-.timeline__outro {
-  height: 220px;
-  margin-top: -220px;
+.timeline__intro {
+  height: 280px;
+  margin-top: -280px;
+  margin-bottom: 60px;
   position: relative;
 
   &:after {
@@ -17,21 +17,6 @@
     position: absolute;
     background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255, 0) 100%);
     z-index: 3;
-  }
-}
-
-.timeline__intro {
-  margin-bottom: 60px;
-}
-
-.timeline__outro {
-  margin: 0;
-  height: 60px;
-
-  &:after {
-    top: auto;
-    bottom: 0;
-    background: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255, 0) 100%);
   }
 }
 
